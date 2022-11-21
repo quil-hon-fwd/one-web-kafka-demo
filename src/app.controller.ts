@@ -1,5 +1,7 @@
 import {Body, Controller, Get, Post} from '@nestjs/common';
 import { AppService } from './app.service';
+import {CubeController} from "./cube/controller/cube.controller";
+import {CubeService} from "./cube/service/cube.service";
 
 @Controller()
 export class AppController {
@@ -8,11 +10,6 @@ export class AppController {
   @Get()
   getHello(): string {
     return this.appService.getHello();
-  }
-
-  @Post("/publish")
-  publishMessage(@Body() message: JSON) {
-    this.appService.publishMessage(message);
   }
 
 }
