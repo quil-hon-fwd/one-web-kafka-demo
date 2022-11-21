@@ -2,9 +2,15 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { KafkaModule } from './kafka/kafka.module';
+import {ConfigModule} from "@nestjs/config";
 
 @Module({
-  imports: [KafkaModule],
+  imports: [
+      KafkaModule,
+      ConfigModule.forRoot({
+        envFilePath: ['.kafka.env']
+      })
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
