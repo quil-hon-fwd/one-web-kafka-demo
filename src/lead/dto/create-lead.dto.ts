@@ -1,0 +1,36 @@
+export class CreateLeadDto {
+  id: string;
+  applicationId: string;
+  lastUpdated: string;
+  planCode: string;
+  dropOffStep: string;
+  dropOffReason: string;
+  firstNameKanji: string;
+  lastNameKanji: string;
+  firstNameKana: string;
+  lastNameKana: string;
+  email: string;
+  phoneNumber: string;
+  postcode: string;
+  prefecture: string;
+  address: string;
+  apartment: string;
+  occupationClass1: string;
+  occupationClass2: string;
+  occupationClass3: string;
+  jobCode: string;
+  gender: string;
+  dateOfBirth: string;
+  deputyClaimantRelationship: string;
+  designatedDeputyClaimantFirstName: string;
+  designatedDeputyClaimantLastName: string;
+  marketingAcceptance: boolean;
+  eidai: string;
+  campaignCode: string;
+  defaultPlan: string;
+  utmSource: string;
+  utmMedium: string;
+  utmCampaign: string;
+  utmTerm: string;
+  utmContent: string;
+}

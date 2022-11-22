@@ -1,0 +1,148 @@
+{
+  "type": "record",
+  "name" : "EcLead",
+  "namespace" : "jp.co.fwd.ec",
+  "fields": [
+    {
+      "name": "ecLeadId",
+      "type": "string"
+    },
+    {
+      "name": "applicationId",
+      "type": "string"
+    },
+    {
+      "name": "lastUpdated",
+      "type": "string"
+    },
+    {
+      "name": "planCode",
+      "type": "string"
+    },
+    {
+      "name": "dropOffStep",
+      "type": "string"
+    },
+    {
+      "name": "dropOffReason",
+      "type": "string"
+    },
+    {
+      "name": "firstNameKanji",
+      "type": "string"
+    },
+    {
+      "name": "lastNameKanji",
+      "type": "string"
+    },
+    {
+      "name": "firstNameKana",
+      "type": "string"
+    },
+    {
+      "name": "lastNameKana",
+    "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "phoneNumber",
+      "type": "string"
+    },
+    {
+      "name": "postcode",
+      "type": "string"
+    },
+    {
+      "name": "prefecture",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "apartment",
+      "type": "string"
+    },
+    {
+      "name": "occupationClass1",
+      "type": "string"
+    },
+    {
+      "name": "occupationClass2",
+      "type": "string"
+    },
+    {
+      "name": "occupationClass3",
+      "type": "string"
+    },
+    {
+      "name": "jobCode",
+      "type": "string"
+    },
+    {
+      "name": "gender",
+      "type": "string"
+    },
+    {
+      "name": "dateOfBirth",
+      "type": "string"
+    },
+    {
+      "name": "deputyClaimantRelationship",
+      "type": "string"
+    },
+    {
+      "name": "designatedDeputyClaimantFirstName",
+      "type": "string"
+    },
+    {
+      "name": "designatedDeputyClaimantLastName",
+      "type": "string"
+    },
+    {
+      "name": "marketingAcceptance",
+      "type": "boolean",
+	    "default": false
+    },
+    {
+      "name": "eidai",
+      "type": "string"
+    },
+    {
+      "name": "campaignCode",
+      "type": "string"
+    },
+    {
+      "name": "defaultPlan",
+      "type": "string"
+    },
+    {
+      "name": "utmSource",
+      "type": "string"
+    },
+    {
+      "name": "utmMedium",
+      "type": "string"
+    },
+    {
+      "name": "utmCampaign",
+      "type": "string"
+    },
+    {
+      "name": "utmTerm",
+      "type": "string"
+    },
+    {
+      "name": "utmContent",
+      "type": "string"
+    },
+    {
+      "name": "auditLog",
+      "type": "string"
+    }
+  ]
+}
