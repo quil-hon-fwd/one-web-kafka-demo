@@ -1,0 +1,6 @@
+@namespace("com.cube.demo")
+protocol SimpleProto {
+	record Simple {
+		string foo;
+	}
+}
