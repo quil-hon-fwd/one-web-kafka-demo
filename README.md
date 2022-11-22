@@ -36,13 +36,13 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ NODE_TLS_REJECT_UNAUTHORIZED=0 npm run start
 
 # watch mode
-$ npm run start:dev
+$ NODE_TLS_REJECT_UNAUTHORIZED=0 npm run start:dev
 
 # production mode
-$ npm run start:prod
+$ NODE_TLS_REJECT_UNAUTHORIZED=0 npm run start:prod
 ```
 
 ## Test
